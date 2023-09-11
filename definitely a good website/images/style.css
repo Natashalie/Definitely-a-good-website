@@ -1,5 +1,6 @@
 body {
     background-color: rgb(190, 158, 255);
+    text-align: center;
    }
     <!--header-->
    .logo {
@@ -10,7 +11,7 @@ body {
    .header {
     overflow: hidden;
     background-color: #9179f5;
-    padding: 10px 10px;
+    padding: 5px 5px;
    }
    .header a {
     float: left;
@@ -52,6 +53,7 @@ body {
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
    }
    
    .homebackground {
@@ -95,23 +97,37 @@ body {
     height: 100%;
     margin: 20px auto;
     padding-top: 20px;
-    padding-left: 20px;
+    padding-left: 2px;
     padding-right: 20px;
     padding-bottom: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
    }
    
+   .aboutpageparagraphs {
+    background-color: #92f4c0;
+   }
    h1 {
     color: #f9ffc2;
     text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
    }
-
+   
+   h2 {
+    color: #f9ffc2;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   }
    button {
     background-color: #9179f5;
     color: #f9ffc2;
     text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
    }
 
-   img {
+
+
+   p {
+    color: #f9ffc2;
     text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
    }
