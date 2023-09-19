@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soundboard!</title>
+    <script type="text/javascript">
+        function play_sound(clicked_id) {
+          var audio = new Audio(clicked_id + ".mp3");
+          audio.play();
+        }
+      </script>
+</head>
+<body>
+   <!--this the header and the nav bar-->
+  <div class="header">
+    <div class="header-center">
+      <a href="index.html">Home</a>
+      <a class="active" href="soundboard.html">Soundboard</a>
+      <a href="game.html">Game</a>
+    </div>
+   </div>
+    
+    <h1>KLEE AND HU TAO :D </h1>
+    <div>
+      <img src="Hu-Tao-Birthday-Art.jpg" alt="Hu-Tao-Photo" height="25%" width="25%">
+      <img src = "klee-birthday-art-genshinimpact.jpg" alt="Klee-photo" height="25%" width="25%" >
+    </div>
+    <button id="oya" onClick="play_sound(this.id)">Oya?</button>
+    <button id="hutao-hilitune-made-with-Voicemod-technology" onClick="play_sound(this.id)">Hillichurl~</button>
+    <button id="let-the-living-beware-made-with-Voicemod-technology" onClick="play_sound(this.id)">Hu Tao Theme</button>
+    <button id="hu-tao-sayonara<3-made-with-Voicemod-technology" onClick="play_sound(this.id)">Sayonara!</button>
+    <button id="genshin-impact-bomb-bomb-bakudan-klee-<3-made-with-Voicemod-technology" onClick="play_sound(this.id)">Boom Boom Bakudan!</button>
+    <button id="klee-ta-ta-ta-and-woo-made-with-Voicemod-technology" onClick="play_sound(this.id)">Ta Ta Ta~</button>
+    <button id="klee-noise-unnyah-made-with-Voicemod-technology" onClick="play_sound(this.id)">Unnyah!</button>
+    <button id="klee-<3-made-with-Voicemod-technology" onClick="play_sound(this.id)">Happy Birthday!</button>
+</body>
+</html>
+ 

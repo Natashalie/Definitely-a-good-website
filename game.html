@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game page!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+      <!--this the header and the nav bar-->
+  <div class="header">
+    <div class="header-center">
+      <a> <img src="logo.png" alt="logo" width="65px" length="65px"> </a>
+      <a href="index.html">Home</a>
+      <a href="soundboard.html">Soundboard</a>
+      <a class="active"href="game.html">Game</a>
+    </div>
+   </div>
+    <h1>This is the game page!</h1>
+    <p>Guess a number between 1 and 77:</p>
+  <!-- notice how  the input, button and p have an ID?-->
+  <!-- This is so our Javascript can identify these elements and manipulate them-->
+  <input type="number" id="guessField">
+  <button id="guessSubmit">Submit Guess</button>
+  <p id="message"></p>
+  <!-- Much like we link an external CSS sheet here an external javascript is being linked-->
+
+
+  <style>
+    #image-container {
+        display: none;
+    }
+</style>
+
+  
+
+<div id="image-container">
+    <img src="shark.jpeg" alt="Image" width="35%" height="auto">
+</div>
+
+<script src="gamepageLogic.js"></script>
+<p>You have 8 guesses so goodluck!</p>
+
+</body>
+</html>
+
